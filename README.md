@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple API-only application generated with Rails 5
 
-Things you may want to cover:
+Tutorial found at https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
 
-* Ruby version
+To run application:
+- clone
+- bundle install
+- '$rails s'
 
-* System dependencies
+Test API manually:
+- brew install httpie
+- '$ http :3000/todos/ title=Mozart created_by=1'
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To run rspec tests:
+- cd into the spec/ folder
+- '$ bundle exec rspec'
